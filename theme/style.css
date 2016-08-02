@@ -1,0 +1,65 @@
+/*
+ Theme Name:   Chesmont theme - Nisarg Child
+ Theme URI:    http://www.chesmontastro.org/
+ Description:  Chesmont Astro Theme - Child of Nisarg Theme
+ Author:       David Clifton
+ Author URI:   http://www.davidmclifton.com
+ Template:     nisarg
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  chesmont-nisarg-child
+*/
+
+.site-header {
+    background-size: 1920px auto;
+}
+
+#bbpress-forums {
+    background: transparent;
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+
+#bbpress-forums .bbp-topic-content p,
+#bbpress-forums .bbp-reply-content p {
+    font-size: 12px;
+}
+
+#bbpress-forums fieldset.bbp-form textarea, 
+#bbpress-forums fieldset.bbp-form select, 
+#bbpress-forums fieldset.bbp-form input {
+    border: 1px solid #ccc;
+}
+
+#bbpress-forums .bbp-topic-content p, #bbpress-forums .bbp-reply-content p {
+    font-size: 14px;
+}
+
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
+    font-size: 16px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+
+#bbpress-forums div.bbp-breadcrumb, div.bbp-topic-tags {
+    font-size: 14px;
+}
+
+/*
+.eventon_desc_in p {
+   font-size: 16px !important;
+}
+*/
+
+.mce-edit-area {
+  border-width: 1px 1px 1px !important;
+  border: 1px solid #ccc !important;
+}
